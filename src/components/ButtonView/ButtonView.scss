@@ -1,0 +1,16 @@
+$buttonBgColor: #303134;
+
+.buttonView {
+  padding: 0.9em;
+  background-color: $buttonBgColor;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.button-white {
+  color: white;
+}
+
+.button-blue {
+  color: #8ab4f8;
+}
