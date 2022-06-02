@@ -1,0 +1,17 @@
+.navbar {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // width: 100vw;
+
+  .navbar-tools {
+    display: flex;
+    justify-content: end;
+  }
+
+  * {
+    padding: 0.5em;
+    display: inline-flex;
+    align-items: center;
+  }
+}

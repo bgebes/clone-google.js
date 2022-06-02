@@ -1,0 +1,36 @@
+$footerBgColor: #171717;
+$footerBorderColor: #212327;
+
+.footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: $footerBgColor;
+
+  .footer-country {
+    border-bottom: 1px solid $footerBorderColor;
+    display: flex;
+    align-items: center;
+
+    .textView {
+      font-size: 15px;
+      padding: 1em;
+    }
+  }
+
+  .footer-links {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    * {
+      padding: 1em 0;
+
+      .linkView {
+        padding: 0 1em;
+        font-size: 14px;
+      }
+    }
+  }
+}
